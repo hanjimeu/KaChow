@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1096647736843",
+    "project_id": "projmecanica",
+    "storage_bucket": "projmecanica.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096647736843:android:c50287967560bb50e1d10e",
+        "android_client_info": {
+          "package_name": "com.example.anatomiamecanica"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQy0YdSn45nTxh-b0Kh9NgM60_xovCMno"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
