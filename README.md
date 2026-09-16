@@ -1,4 +1,5 @@
-### **Anatomia Mecânica**
+
+# **Anatomia Mecânica**
 
 Um catálogo interativo de peças automotivas e industriais inspirado no universo de Relâmpago McQueen (Ka-Chow!).
 
@@ -12,58 +13,145 @@ O app combina um fluxo seguro de autenticação através do Firebase Authenticat
 
 ---
 
+### **Screenshots**
+
+<p align="center">
+  <img src="screenshots/login-kachow.jpeg" width="30%" alt="Tela de Login" />
+  <img src="screenshots/cadastro-kachow.jpeg" width="30%" alt="Tela de Cadastro" />
+  <img src="screenshots/recuperar-senha-kachow.jpeg" width="30%" alt="Recuperar Senha" />
+</p>
+
+<p align="center">
+  <img src="screenshots/tela-inicial-kachow.jpeg" width="30%" alt="Tela Inicial" />
+  <img src="screenshots/criar-peca-kachow.jpeg" width="30%" alt="Criar Peça" />
+  <img src="screenshots/editar-peca-kachow.jpeg" width="30%" alt="Editar Peça" />
+</p>
+---
+
 ### **Funcionalidades**
 
-• Cadastro de usuário (createUserWithEmailAndPassword)
-• Login (signInWithEmailAndPassword)
-• Recuperação de senha por e-mail (sendPasswordResetEmail)
-• Logout
-• Home com identidade visual de Relâmpago McQueen e atalhos por categoria
-• Filtro de peças por categoria (Engrenagens, Motores, Turbinas e Peças Industriais)
-• Cadastro e edição de peças via dialog customizado
-• Exclusão de peças em tempo real
-• Restauração de catálogo com peças padrão do tema
+• Cadastro de usuário (createUserWithEmailAndPassword)  
+• Login (signInWithEmailAndPassword)  
+• Recuperação de senha por e-mail (sendPasswordResetEmail)  
+• Logout  
+• Home com identidade visual de Relâmpago McQueen e atalhos por categoria  
+• Filtro de peças por categoria (Engrenagens, Motores, Turbinas e Peças Industriais)  
+• Cadastro e edição de peças via dialog customizado  
+• Exclusão de peças em tempo real  
+• Restauração de catálogo com peças padrão do tema  
 • Perfil com dados do usuário autenticado e sair
 
 ---
 
 ### **Tecnologias Utilizadas**
 
-• Linguagem: Kotlin
-• UI Toolkit: Jetpack Compose
-• Navegação: Navigation Compose
-• Arquitetura: MVVM (Model-View-ViewModel)
-• Gerenciamento de Estado: StateFlow (MutableStateFlow / collectAsState)
+• Linguagem: Kotlin  
+• UI Toolkit: Jetpack Compose  
+• Navegação: Navigation Compose  
+• Arquitetura: MVVM (Model-View-ViewModel)  
+• Gerenciamento de Estado: StateFlow (MutableStateFlow / collectAsState)  
 • Autenticação: Firebase Authentication
 
 ---
 
-
 ### **Como Executar o Projeto**
 
- **Pré-requisitos**
+**Pré-requisitos**
 
-• Android Studio instalado (versão Giraffe ou superior)
-• JDK 17 ou superior configurado
+• Android Studio instalado (versão Giraffe ou superior)  
+• JDK 17 ou superior configurado  
 • Dispositivo Android físico ou emulador (API 24+)
 
- **Passo a Passo**
+**Passo a Passo**
 
 1. Clone o repositório:
-   git clone [https://github.com/hanjimeu/KaChow]
-2. Abra o projeto:
-   Abra o Android Studio, selecione Open e escolha a pasta do projeto clonado.
-3. Configure o Firebase:
-   Acesse o Console do Firebase ([https://console.firebase.google.com/](https://console.firebase.google.com/)).
-   Crie um projeto e adicione um app Android com o pacote com.example.anatomiamecanica.
-   Baixe o arquivo google-services.json e adicione na pasta app/ do seu projeto.
-   No Firebase, ative o provedor de autenticação por E-mail/Senha.
-4. Execute o aplicativo:
-   Sincronize o Gradle (Sync Project with Gradle Files).
-   Execute o app no emulador ou dispositivo físico (Shift + F10).
+   ```bash
+   git clone [https://github.com/hanjimeu/KaChow](https://github.com/hanjimeu/KaChow)
+Abra o projeto:
+
+Abra o Android Studio, selecione Open e escolha a pasta do projeto clonado.
+
+Configure o Firebase:
+
+Acesse o Console do Firebase.
+
+Crie um projeto e adicione um app Android com o pacote com.example.anatomiamecanica.
+
+Baixe o arquivo google-services.json e adicione na pasta app/ do seu projeto.
+
+No Firebase, ative o provedor de autenticação por E-mail/Senha.
+
+Execute o aplicativo:
+
+Sincronize o Gradle (Sync Project with Gradle Files).
+
+Execute o app no emulador ou dispositivo físico (Shift + F10).
+
+Autor
+
+Desenvolvido por Mariana dos Santos Moreira.
 
 ---
 
-**Autor**
+### **Funcionalidades**
 
-Desenvolvido por **Mariana dos Santos Moreira**.
+• Cadastro de usuário (createUserWithEmailAndPassword)  
+• Login (signInWithEmailAndPassword)  
+• Recuperação de senha por e-mail (sendPasswordResetEmail)  
+• Logout  
+• Home com identidade visual de Relâmpago McQueen e atalhos por categoria  
+• Filtro de peças por categoria (Engrenagens, Motores, Turbinas e Peças Industriais)  
+• Cadastro e edição de peças via dialog customizado  
+• Exclusão de peças em tempo real  
+• Restauração de catálogo com peças padrão do tema  
+• Perfil com dados do usuário autenticado e sair
+
+---
+
+### **Tecnologias Utilizadas**
+
+• Linguagem: Kotlin  
+• UI Toolkit: Jetpack Compose  
+• Navegação: Navigation Compose  
+• Arquitetura: MVVM (Model-View-ViewModel)  
+• Gerenciamento de Estado: StateFlow (MutableStateFlow / collectAsState)  
+• Autenticação: Firebase Authentication
+
+---
+
+### **Como Executar o Projeto**
+
+**Pré-requisitos**
+
+• Android Studio instalado (versão Giraffe ou superior)  
+• JDK 17 ou superior configurado  
+• Dispositivo Android físico ou emulador (API 24+)
+
+**Passo a Passo**
+
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/hanjimeu/KaChow](https://github.com/hanjimeu/KaChow)
+Abra o projeto:
+
+Abra o Android Studio, selecione Open e escolha a pasta do projeto clonado.
+
+Configure o Firebase:
+
+Acesse o Console do Firebase.
+
+Crie um projeto e adicione um app Android com o pacote com.example.anatomiamecanica.
+
+Baixe o arquivo google-services.json e adicione na pasta app/ do seu projeto.
+
+No Firebase, ative o provedor de autenticação por E-mail/Senha.
+
+Execute o aplicativo:
+
+Sincronize o Gradle (Sync Project with Gradle Files).
+
+Execute o app no emulador ou dispositivo físico (Shift + F10).
+
+Autor
+
+Desenvolvido por Mariana dos Santos Moreira.
