@@ -20,13 +20,24 @@ O app combina um fluxo seguro de autenticação através do Firebase Authenticat
   <img src="screenshots/cadastro-kachow.jpeg" width="30%" alt="Tela de Cadastro" />
   <img src="screenshots/recuperar-senha-kachow.jpeg" width="30%" alt="Recuperar Senha" />
 </p>
+<p align="center">
+  <sub><b>Login:</b> Acesso seguro com e-mail e senha cadastrados.</sub><br>
+  <sub><b>Cadastro:</b> Criação de nova conta de usuário no sistema.</sub><br>
+  <sub><b>Recuperar Senha:</b> Envio de e-mail de redefinição de senha via Firebase.</sub>
+</p>
+
+<br>
 
 <p align="center">
   <img src="screenshots/tela-inicial-kachow.jpeg" width="30%" alt="Tela Inicial" />
   <img src="screenshots/criar-peca-kachow.jpeg" width="30%" alt="Criar Peça" />
   <img src="screenshots/editar-peca-kachow.jpeg" width="30%" alt="Editar Peça" />
 </p>
----
+<p align="center">
+  <sub><b>Tela Inicial:</b> Exibição e filtragem do catálogo de peças automotivas e industriais.</sub><br>
+  <sub><b>Criar Peça:</b> Formulário customizado para adicionar um novo componente ao catálogo.</sub><br>
+  <sub><b>Editar Peça:</b> Atualização dos detalhes e informações de uma peça existente.</sub>
+</p>
 
 ### **Funcionalidades**
 
